@@ -1,4 +1,4 @@
 print ("Hola Mundo")
 #esto es una prueba 
-pritn("chauuuu")
+pritn("que tal muuundooo")
 print("no chau")
