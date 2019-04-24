@@ -1,6 +1,6 @@
 class condicion_estandar:
-    temperaturastandar= 20 
-    presionstandar= 1
+    temperatura= 20 
+    presion= 1
     def __init__(self,temperatura,presion):
         self.temperatura=temperatura
         self.presion=presion
@@ -16,3 +16,4 @@ condicion_estandar(22,1.05)
 meteorologia_estandar=condicion_estandar(22,1.01)
 
 meteorologia_actual=condicion_estandar(25,1.03)
+
