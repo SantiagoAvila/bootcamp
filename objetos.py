@@ -16,4 +16,3 @@ condicion_estandar(22,1.05)
 meteorologia_estandar=condicion_estandar(22,1.01)
 
 meteorologia_actual=condicion_estandar(25,1.03)
-
