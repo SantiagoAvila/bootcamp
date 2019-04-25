@@ -3,7 +3,7 @@ parti = ["pepito","juan","pablo","marcela","santiago"]
 def sorteos(cantidad_premios,lista):
     if cantidad_premios <= len(lista):
         sorteo=1
-        while sorteo<cantidad_premios+1:
+        while sorteo<=cantidad_premios:
             x=len(lista)-1
             y=randint(0,x)
             z= lista[y]
