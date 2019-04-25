@@ -18,3 +18,11 @@ print(dic_persona)
 print(dic_persona.get("estatura"))
 
 #####otra forma de estructutrar
+dic_persona2={
+                "nombre":"santiago",
+                "edad":25,
+                "estatura":1.77}
+print(dic_persona2)
+
+
+
