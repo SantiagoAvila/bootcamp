@@ -12,5 +12,3 @@ def sorteos(cantidad_premios,lista):
             sorteo=sorteo+1
     else:
         print("tu numero de premios supera al de participantes... dejate de joder")
-
-sorteos(2,parti)
