@@ -17,3 +17,4 @@ print(dic_persona)
 #### si no hay datos puedes utilizar get
 print(dic_persona.get("estatura"))
 
+#####otra forma de estructutrar
