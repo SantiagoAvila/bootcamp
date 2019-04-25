@@ -1,5 +1,5 @@
 class personas:
-    def __init__(self,nombre,edad):
+    def __init__(self,nombre,edad=18):
         self.Nombre=nombre
         self.edad=edad
         print("Mi nombre es",self.Nombre,"y tengo",self.edad,"años")
@@ -24,3 +24,11 @@ class personas:
         print("en el año",b,"tendra ",z,"años")
 
 pepito = personas("Santiago",25)
+
+class estudiante (personas, edad=12):
+    def __init__(self,nombre):
+        self.nombre=nombre
+        print("hola soy un estudiante y me llamo",self.nombre)
+
+pab=estudiante("Pablo")
+print(pab.calcular_años(10,2018))
