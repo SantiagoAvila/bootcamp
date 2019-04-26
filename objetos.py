@@ -19,3 +19,7 @@ meteorologia_actual=condicion_estandar(25,1.03)
 
 condicion_estandar(27,1.01)
 
+
+
+class Trex()
+
